@@ -20,7 +20,7 @@ namespace learingwell
         {
             InitializeComponent();
             data = new Chart_Data(URL);
-            Initialize_Asid_buttons();
+            Initialize_Asid_panel();
             Paint += draw;
             temporary_countries = new Dictionary<string, Countries>();
         }
@@ -30,9 +30,10 @@ namespace learingwell
 
         }
 
-        private void Initialize_Asid_buttons()
+        private void Initialize_Asid_panel()
         {
             int i = 1;
+            // for each year create one lable and add it to asid 
             foreach (var item in data.get_years())
             {
 
@@ -52,8 +53,10 @@ namespace learingwell
         // Get necessary data based on the year from when user click on any year Button
         private void Btn_Year_Click(object sender, EventArgs e)
         {
-            
+           
             Refresh_Y_Axel();
+           
+            
             Button btn = (Button)sender; 
 
             // get the number of male and female for each country code base on the number of year
@@ -67,7 +70,7 @@ namespace learingwell
             
         }
 
-        // draw event // trigger whenever we invoke screnn.refresh 
+        // draw event // * trigger whenever we invoke screnn.refresh * //
         private void draw(object sender, PaintEventArgs e)
         {
             SolidBrush blueBrush = new SolidBrush(Color.Red);
@@ -126,7 +129,7 @@ namespace learingwell
 
             int x = 82; int amount_male; int amount_female; double remainder; int y;
 
-            // for each country draw one read line for male and blue line for famle
+            // for each country draw one read line for male and blue line for female
             foreach (var item in temporary_countries) // 
             {
                
@@ -143,7 +146,7 @@ namespace learingwell
                         draw_rectangle(sender, e, Color.Red, x, y, 13, 18);
                     }
 
-                    // check if there are any remaining and draw it 
+                    // check if there is any remaining and draw it 
                     remainder = Convert.ToDouble(item.Value.Amount_male) % 10;
                     if (remainder != 0)
                     {
@@ -152,7 +155,7 @@ namespace learingwell
 
                 }
 
-                 // do the same for famle
+                 // do the same for female
 
                 if (item.Value.Amount_female != "")
                 {
