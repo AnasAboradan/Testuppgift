@@ -1,0 +1,13 @@
+C:\Users\anasa\OneDrive\Desktop\learingwell\bin\Debug\learingwell.exe.config
+C:\Users\anasa\OneDrive\Desktop\learingwell\bin\Debug\learingwell.exe
+C:\Users\anasa\OneDrive\Desktop\learingwell\bin\Debug\learingwell.pdb
+C:\Users\anasa\OneDrive\Desktop\learingwell\obj\Debug\learingwell.csproj.AssemblyReference.cache
+C:\Users\anasa\OneDrive\Desktop\learingwell\obj\Debug\learingwell.Properties.Resources.resources
+C:\Users\anasa\OneDrive\Desktop\learingwell\obj\Debug\learingwell.csproj.GenerateResource.cache
+C:\Users\anasa\OneDrive\Desktop\learingwell\obj\Debug\learingwell.csproj.CoreCompileInputs.cache
+C:\Users\anasa\OneDrive\Desktop\learingwell\obj\Debug\learingwell.exe
+C:\Users\anasa\OneDrive\Desktop\learingwell\obj\Debug\learingwell.pdb
+C:\Users\anasa\OneDrive\Desktop\learingwell\bin\Debug\Newtonsoft.Json.dll
+C:\Users\anasa\OneDrive\Desktop\learingwell\bin\Debug\Newtonsoft.Json.xml
+C:\Users\anasa\OneDrive\Desktop\learingwell\obj\Debug\learingwell.csproj.CopyComplete
+C:\Users\anasa\OneDrive\Desktop\learingwell\obj\Debug\learingwell.Chart.resources
